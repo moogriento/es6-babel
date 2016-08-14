@@ -1,0 +1,22 @@
+{
+  "name": "es6-babel",
+  "version": "1.0.0",
+  "description": "Babel transpiling tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b": "babel-node",
+    "playground": "babel-node ./src/playground.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  },
+  "author": "Fernando Tong",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015-node5": "^1.2.0"
+  }
+}
